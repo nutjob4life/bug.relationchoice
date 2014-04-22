@@ -4,7 +4,7 @@
 
 I'm getting a stack trace when adding a Dexterity content type that contains a
 RelationChoice/ObjPathSourceBinder field.  This small sample package
-demonstrates the issue.  (It works all right with Plone 4.3.2.)
+demonstrates the issue_.  (It works all right with Plone 4.3.2.)
 
 
 To Reproduce
@@ -207,5 +207,9 @@ It looks something like the following::
       Module z3c.form.term, line 38, in getTermByToken
       Module zope.schema.vocabulary, line 133, in getTermByToken
     LookupError: --NOVALUE--
+
+
+.. References:
+.. _issue: https://dev.plone.org/ticket/14027
 
 
