@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configure
+    xmlns='http://namespaces.zope.org/zope'
+    xmlns:grok='http://namespaces.zope.org/grok'
+    xmlns:genericsetup='http://namespaces.zope.org/genericsetup'
+    i18n_domain='bug.relationchoice'>
+    <include package='z3c.autoinclude' file='meta.zcml' />
+    <includeDependencies package='.' />
+    <grok:grok package='.' />
+    <genericsetup:registerProfile
+        name='default'
+        title='bug.relationchoice'
+        directory='profiles/default'
+        description='Is there a bug in RelationChoice fields in Plone 4.3.3?'
+        provides='Products.GenericSetup.interfaces.EXTENSION'
+    />
+</configure>

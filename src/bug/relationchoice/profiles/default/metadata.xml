@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<metadata>
+    <version>0</version>
+    <description>Is there a bug in RelationChoice fields in Plone 4.3.3?</description>
+    <dependencies>
+        <dependency>profile-plone.app.dexterity:default</dependency>
+        <dependency>profile-plone.app.relationfield:default</dependency>
+    </dependencies>
+</metadata>
