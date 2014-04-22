@@ -13,9 +13,9 @@ To Reproduce
 1.  python2.7 bootstrap.py
 2.  bin/buildout
 3.  bin/plone fg
-4.  Visit http://localhost:8080/ and click "Add Plone Site"
-5.  Check box by "bug.relationfield"
-6.  From the "Add new" menu, click "Sample"
+4.  Visit http://localhost:8080/ and click "Create a new Plone site"
+5.  Check box by "bug.relationfield" in the "Add-ons" box; click "Create Plone Site"
+6.  From the "Add new" menu, click "Sample" 
 
 
 Stacktrace
